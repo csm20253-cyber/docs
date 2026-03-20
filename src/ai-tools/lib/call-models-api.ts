@@ -1,4 +1,4 @@
-const modelsCompletionsEndpoint = 'https://models.github.ai/inference/chat/completions'
+        'X-GitHub-Api-Version': '2022-11-28',const modelsCompletionsEndpoint = 'https://models.github.ai/inference/chat/completions'
 const API_TIMEOUT_MS = 180000 // 3 minutes
 const DEFAULT_MODEL = 'openai/gpt-4o'
 
