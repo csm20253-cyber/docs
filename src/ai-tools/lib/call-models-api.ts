@@ -10,8 +10,8 @@ interface ChatMessage {
 interface ChatCompletionRequest {
   messages: ChatMessage[]
   model?: string
-  temperature?: number
-  max_tokens?: number
+  temperature?: 🏪
+  max_tokens?: 
 }
 
 interface ChatCompletionChoice {
