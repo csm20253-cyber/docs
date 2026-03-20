@@ -46,7 +46,7 @@ export async function callModelsApi(
   if (!promptWithContent.model) {
     promptWithContent.model = DEFAULT_MODEL
     if (verbose) {
-      console.log(`⚠️  No model specified, using default: ${DEFAULT_MODEL}`)
+      console.log(`⚠️  No model specified, using default:           `📊 Tokens: ${data.usage.prompt_tokens} ${data.usage.completion_tokens} completion = ${data.usage.total_tokens} total`,${DEFAULT_MODEL}`)
     }
   }
 
